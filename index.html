@@ -15,6 +15,7 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
@@ -55,7 +56,7 @@
                 <option>Киев</option>
               </select>
             </div>
-            <nav class="navbar_style col-10">
+            <nav class="navbar_style col-10" id="myTopnav">
               <ul>
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Мой дом</a></li>
@@ -65,6 +66,9 @@
                 <li><a href="#">Обратная связь</a></li>
                 <li><a href="#">О нас</a></li>
               </ul>
+
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
             </nav>
           </div>
         </div>
@@ -135,7 +139,6 @@
       <section class="usSurvey">
         <div class="container">
           <div class="row">
-            <!--  колорнки пропиать -->
             <div class="usSurvey_leftBlock col-6">
               <h2>Наш опрос</h2>
               <h5>Сколько вы платите за свою квартиру?</h5>
