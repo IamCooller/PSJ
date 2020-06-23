@@ -1,0 +1,98 @@
+.usSurvey {
+    background: url(../../src/assets/city.png);
+    justify-content: center;
+}
+
+.usSurvey_leftBlock {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.usSurvey_leftBlock h2 {
+    color: #FFFFFF;
+    font-family: 'FiraSans', sans-serif;
+    font-size: 50px;
+}
+
+.usSurvey_leftBlock h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 70%;
+}
+
+.usSurvey_leftBlock p {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+.search_calct .form {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.search_calct .input {
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    height: 50px;
+    padding-left: 30px;
+}
+
+input[type="search"]::placeholder {
+    widows: 100%;
+    padding-right: 30px;
+    text-overflow: clip;
+}
+
+.search_calct .form select {
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #bbbbbb;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.search_calct .btnS {
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    height: 50px;
+
+    background-color: #4BD395;
+}
+
+.search_calct .btnS a {
+    width: 100%;
+    color: #FFFFFF !important;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 16px;
+}
+
+@media(max-width:770px){
+    .usSurvey_leftBlock h2{
+        font-size: 40px;
+    }
+    .usSurvey_leftBlock h5{
+        font-size: 14px;
+    }
+    .usSurvey_leftBlock p{
+        font-size: 10px;
+    }
+    .search_calct .btnS a{
+        font-size: 10px;
+    }
+    .search_calct .input{
+        max-width: 138px;
+    }
+}

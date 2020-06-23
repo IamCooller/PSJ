@@ -1,0 +1,142 @@
+.slider{
+    margin-bottom: 50px;
+}
+
+#block-for-slider {
+
+    margin: 0 auto;
+
+}
+
+#viewport {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+#slidewrapper {
+    position: relative;
+    width: calc(100% * 4);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-transition-timing-function: cubic-bezier(.67, .01, .23, 1);
+    -o-transition-timing-function: cubic-bezier(.67, .01, .23, 1);
+    transition-timing-function: cubic-bezier(.67, .01, .23, 1);
+}
+
+#slidewrapper,
+#slidewrapper ul,
+#slidewrapper li {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: calc(100%/4);
+    list-style: none;
+    display: inline;
+    float: left;
+    display: flex;
+}
+
+
+
+#prev-btn,
+#next-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    top: calc(50% - 25px);
+}
+
+#prev-btn:hover,
+#next-btn:hover {
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 20px;
+    background: url('../../src/assets/Влево@1X.png') no-repeat;
+}
+
+#next-btn {
+    right: 20px;
+    background: url('../../src/assets/Влево@1X.png') no-repeat;
+    transform: rotate(180deg);
+}
+
+#nav-btns {
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.slide-nav-btn {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background:url('../../src/assets/btn.png') no-repeat;
+    margin: 3px;
+}
+
+.slide-nav-btn_active{
+     background:url('../../src/assets/btn_active.png') no-repeat;
+}
+
+.slide-nav-btn:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: #222222;
+    font-family: 'FiraSans',
+        sans-serif;
+    font-size: 40px;
+    width: 75%;
+    padding-bottom: 16px;
+}
+
+.slide-img {
+    width: 45%;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #222222;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.info_slide {
+    text-align: start;
+    margin: auto;
+    position: relative;
+    left: 8%;
+}
+
+@media(max-width:770px){
+    .slide-img{
+        max-width: 240px;
+    }
+    .info_slide h1{
+        font-size: 17px;
+    }
+    .info_slide h4{
+        font-size: 12px;
+    }
+}

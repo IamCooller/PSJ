@@ -1,0 +1,98 @@
+.navbar {
+    background-color: #0A2238;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navbar_option {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.navbar_style ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.navbar_style li a {
+    color: #FFFFFF !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+
+.navbar_style li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #4BD395;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+
+.navbar_style li a:hover::after {
+    transform: scale(1);
+}
+
+option:checked {
+    color: blue;
+}
+
+option {
+    color: black;
+}
+
+.city select {
+    border-radius: 0;
+    background: transparent;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-appearance: none;
+    overflow: hidden;
+    height: 34px;
+    background: url(../../src/assets/optionSelect.png) no-repeat right;
+    background-position-y: 17px;
+    padding-right: 8px;
+    color: #FFFFFF !important;
+    font-family: 'Montserrat-Medium',
+        sans-serif;
+    font-size: 14px;
+}
+
+@media (max-width:1200px) {
+    .navbar_style li a {
+        font-size: 14px;
+    }
+
+    @media (max-width:1150px) {
+        .navbar_style li a {
+            font-size: 12px;
+        }
+    }
+
+    @media (max-width:990px) {
+        .navbar_style li a {
+            font-size: 10px;
+        }
+    }
+
+     @media (max-width:770px) {
+         .navbar_style li a {
+             font-size: 7px;
+         }
+     }
+ @media (max-width:550px) {
+     .navbar_style li a {
+         font-size: 5px;
+     }
+ }

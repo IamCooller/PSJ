@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Портал собственников жилья</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <div class="header_block row col-12">
+            <div class="img_logo">
+              <a href="#"><img src="src/assets/Logo@1X.png" alt="" /></a>
+            </div>
+            <div class="personal_block">
+              <div class="PersonalArea">
+                <img src="src/assets/personalarea.png" alt="" />
+                <a href="#">
+                  Личный кабинет
+                </a>
+              </div>
+              <div class="reg">
+                <a href="#">
+                  Регистрация
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="navbar">
+        <div class="container">
+          <div class="navbar_option row">
+            <div class="city col-2">
+              <select>
+                <option>Москва</option>
+                <option>Донецк</option>
+                <option>Киев</option>
+              </select>
+            </div>
+            <nav class="navbar_style col-10">
+              <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Мой дом</a></li>
+                <li><a href="#">Рекламодателям</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Политика портала</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">О нас</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="slider">
+        <div class="container">
+          <div id="block-for-slider">
+            <div id="viewport">
+              <ul id="slidewrapper">
+                <li class="slide">
+                  <div class="info_slide">
+                    <h1>Портал собственников жилья заголовок</h1>
+                    <h4>Мы в ответе за свой дом!</h4>
+                    <div class="reg">
+                      <a href="#">
+                        Информация
+                      </a>
+                    </div>
+                  </div>
+
+                  <img src="src/assets/house.png" alt="1" class="slide-img" />
+                </li>
+
+                <li class="slide">
+                  <div class="info_slide">
+                    <h1>Портал собственников жилья заголовок</h1>
+                    <h4>Мы в ответе за свой дом!</h4>
+                    <div class="reg">
+                      <a href="#">
+                        Информация
+                      </a>
+                    </div>
+                  </div>
+
+                  <img src="src/assets/house.png" alt="1" class="slide-img" />
+                </li>
+
+                <li class="slide">
+                  <div class="info_slide">
+                    <h1>Портал собственников жилья заголовок</h1>
+                    <h4>Мы в ответе за свой дом!</h4>
+                    <div class="reg">
+                      <a href="#">
+                        Информация
+                      </a>
+                    </div>
+                  </div>
+
+                  <img src="src/assets/house.png" alt="1" class="slide-img" />
+                </li>
+              </ul>
+
+              <div id="prev-next-btns">
+                <div id="prev-btn"></div>
+                <div id="next-btn"></div>
+              </div>
+
+              <ul id="nav-btns">
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn slide-nav-btn_active"></li>
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="usSurvey">
+        <div class="container">
+          <div class="row">
+            <!--  колорнки пропиать -->
+            <div class="usSurvey_leftBlock col-6">
+              <h2>Наш опрос</h2>
+              <h5>Сколько вы платите за свою квартиру?</h5>
+              <p>В опросе приняло участие: 425 человек</p>
+            </div>
+            <div class="usSurvey_rightBlock col-6">
+              <div class="search_calct">
+                <form action="#" class="form">
+                  <div class="row">
+                    <input
+                      type="search"
+                      placeholder="Ваш населенный пункт или район проживания (для Москвы)"
+                      class="input"
+                      required=""
+                    />
+
+                    <input
+                      type="search"
+                      placeholder="Оплата за месяц (руб.)"
+                      class="input"
+                      required=""
+                    />
+                  </div>
+                  <div class="row" style="margin-left: 25px;">
+                    <select>
+                      <option>1-комнатная квартира</option>
+                      <option>2-комнатная квартира</option>
+                      <option>3-комнатная квартира</option>
+                    </select>
+                    <div class="btnS">
+                      <a href="#">
+                        <img src="src/assets/CompositeLayer@1X.png" alt="" />
+                        Отправить
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="last">
+        <div class="container">
+          <div class="row">
+            <div class="left_blockLast col-8">
+              <h1>Последнее обсуждаемое</h1>
+              <div class="blocks_news" style="margin-bottom: 20px;">
+                <div class="block_news">
+                  <p class="data">18.02.2020</p>
+                  <div class="next_news_block">
+                    <p class="title_news">
+                      Заголовок новости в несколько строк, например Проведение
+                      собрания собственников жилья
+                    </p>
+                    <img
+                      src="src/assets/next_news.png"
+                      alt=""
+                      class="img_nextNews"
+                    />
+                  </div>
+                </div>
+                <div class="block_news">
+                  <p class="data">18.02.2020</p>
+                  <div class="next_news_block">
+                    <p class="title_news">
+                      Заголовок новости в несколько строк, например Проведение
+                      собрания собственников жилья
+                    </p>
+                    <img
+                      src="src/assets/next_news.png"
+                      alt=""
+                      class="img_nextNews"
+                    />
+                  </div>
+                </div>
+                <div class="block_news">
+                  <p class="data">18.02.2020</p>
+                  <div class="next_news_block">
+                    <p class="title_news">
+                      Заголовок новости в несколько строк, например Проведение
+                      собрания собственников жилья
+                    </p>
+                    <img
+                      src="src/assets/next_news.png"
+                      alt=""
+                      class="img_nextNews"
+                    />
+                  </div>
+                </div>
+                <div class="block_news">
+                  <p class="data">18.02.2020</p>
+                  <div class="next_news_block">
+                    <p class="title_news">
+                      Заголовок новости в несколько строк, например Проведение
+                      собрания собственников жилья
+                    </p>
+                    <img
+                      src="src/assets/next_news.png"
+                      alt=""
+                      class="img_nextNews"
+                    />
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="more">Смотреть еще</a>
+            </div>
+            <div class="right_blockLast col-4">
+              <h1>Документы</h1>
+              <div class="blocks_documents" style="margin-bottom: 20px;">
+                <div class="block_document">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="document_text">
+                          Название документа например: Государственная программ
+                          г. Москвы до 2035 года
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="block_document">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="document_text">
+                          Перспективна программа электроснабжения г. Москвы
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="block_document">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="document_text">
+                          Перспективна программа электроснабжения г. Москвы
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="block_document">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="document_text">
+                          Схема теплоснабжения г. Москвы до 2035 года
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="block_document">
+                  <ul style="border-bottom: none;">
+                    <li>
+                      <a href="#">
+                        <p class="document_text">
+                          Порядок установки электросчетчиков от 10. 12. 1985
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="more">Смотреть все документы</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <nav class="footer_nav col-10">
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Мой дом</a></li>
+              <li><a href="#">Рекламодателям</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Политика портала</a></li>
+              <li><a href="#">Обратная связь</a></li>
+              <li><a href="#">О нас</a></li>
+            </ul>
+          </nav>
+          <div class="socil_icon col-2">
+            <a href="#"><img src="src/assets/vk.png" alt="" /></a>
+            <a href="#"><img src="src/assets/insta.png" alt="" /></a>
+            <a href="#"><img src="src/assets/facebook.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="bottom_footer">
+        © 2020 Портал собственников жилья
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

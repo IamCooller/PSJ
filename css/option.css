@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "FiraSans";
+    src: url("fonts/FiraSans-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("fonts/medium_Montserrat.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
