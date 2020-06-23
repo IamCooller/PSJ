@@ -56,7 +56,7 @@
                 <option>Киев</option>
               </select>
             </div>
-            <nav class="navbar_style col-10" id="myTopnav">
+            <nav class="navbar_style col-md-10 col-sm-12" id="myTopnav">
               <ul>
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Мой дом</a></li>
@@ -66,7 +66,21 @@
                 <li><a href="#">Обратная связь</a></li>
                 <li><a href="#">О нас</a></li>
               </ul>
+<!-- 
+              <a href="#" class="iconNav" onclick="navbar_f()">
+    <i class="fa fa-bars"></i>
             </nav>
+            <script>
+            function navbar_f() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "navbar_style") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "navbar_style";
+                }
+              }
+
+            </script> -->
           </div>
         </div>
       </section>
@@ -116,6 +130,19 @@
 
                   <img src="src/assets/house.png" alt="1" class="slide-img" />
                 </li>
+                <li class="slide">
+                  <div class="info_slide">
+                    <h1>Портал собственников жилья заголовок</h1>
+                    <h4>Мы в ответе за свой дом!</h4>
+                    <div class="reg">
+                      <a href="#">
+                        Информация
+                      </a>
+                    </div>
+                  </div>
+                
+                  <img src="src/assets/house.png" alt="1" class="slide-img" />
+                </li>
               </ul>
 
               <div id="prev-next-btns">
@@ -136,15 +163,15 @@
       <section class="usSurvey">
         <div class="container">
           <div class="row">
-            <div class="usSurvey_leftBlock col-6">
+            <div class="usSurvey_leftBlock col-md-6 col-sm-12">
               <h2>Наш опрос</h2>
               <h5>Сколько вы платите за свою квартиру?</h5>
               <p>В опросе приняло участие: 425 человек</p>
             </div>
-            <div class="usSurvey_rightBlock col-6">
+            <div class="usSurvey_rightBlock col-md-6 col-sm-12">
               <div class="search_calct">
                 <form action="#" class="form">
-                  <div class="row">
+                  <div class="row col-md-6 col-sm-12">
                     <input
                       type="search"
                       placeholder="Ваш населенный пункт или район проживания (для Москвы)"
@@ -159,7 +186,7 @@
                       required=""
                     />
                   </div>
-                  <div class="row" style="margin-left: 25px;">
+                  <div class="row col-md-6 col-sm-12 colum_two">
                     <select>
                       <option>1-комнатная квартира</option>
                       <option>2-комнатная квартира</option>
@@ -181,7 +208,7 @@
       <section class="last">
         <div class="container">
           <div class="row">
-            <div class="left_blockLast col-8">
+            <div class="left_blockLast col-md-8 col-sm-12">
               <h1>Последнее обсуждаемое</h1>
               <div class="blocks_news" style="margin-bottom: 20px;">
                 <div class="block_news">
@@ -243,7 +270,7 @@
               </div>
               <a href="#" class="more">Смотреть еще</a>
             </div>
-            <div class="right_blockLast col-4">
+            <div class="right_blockLast col-md-4 col-sm-12">
               <h1>Документы</h1>
               <div class="blocks_documents" style="margin-bottom: 20px;">
                 <div class="block_document">
@@ -312,7 +339,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <nav class="footer_nav col-10">
+          <nav class="footer_nav col-md-10 col-sm-12">
             <ul>
               <li><a href="#">Главная</a></li>
               <li><a href="#">Мой дом</a></li>
@@ -323,7 +350,7 @@
               <li><a href="#">О нас</a></li>
             </ul>
           </nav>
-          <div class="socil_icon col-2">
+          <div class="socil_icon col-md-2 col-sm-12">
             <a href="#"><img src="src/assets/vk.png" alt="" /></a>
             <a href="#"><img src="src/assets/insta.png" alt="" /></a>
             <a href="#"><img src="src/assets/facebook.png" alt="" /></a>

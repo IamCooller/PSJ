@@ -61,4 +61,11 @@ header {
         max-width: 80px;
     }
 
+    .personal_block{
+        flex-direction: column;
+    }
+    .PersonalArea{
+        padding-bottom: 10px;
+    }
+
 }

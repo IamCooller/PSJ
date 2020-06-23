@@ -71,6 +71,10 @@ input[type="search"]::placeholder {
     background-color: #4BD395;
 }
 
+.colum_two {
+    margin-left: 25px;
+}
+
 .search_calct .btnS a {
     width: 100%;
     color: #FFFFFF !important;
@@ -79,20 +83,38 @@ input[type="search"]::placeholder {
     font-size: 16px;
 }
 
-@media(max-width:770px){
-    .usSurvey_leftBlock h2{
+@media(max-width:770px) {
+    .usSurvey_leftBlock h2 {
         font-size: 40px;
     }
-    .usSurvey_leftBlock h5{
+
+    .usSurvey_leftBlock h5 {
         font-size: 14px;
     }
-    .usSurvey_leftBlock p{
+
+    .usSurvey_leftBlock p {
         font-size: 10px;
     }
-    .search_calct .btnS a{
+
+    .search_calct .btnS a {
         font-size: 10px;
     }
-    .search_calct .input{
-        max-width: 138px;
-    }
+     .form {
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .colum_two {
+         margin-left: 0;
+     }
+
+     .usSurvey_leftBlock h5 {
+         margin: 0 auto;
+     }
+
+     .usSurvey_leftBlock {
+         text-align: center;
+     }
 }
+

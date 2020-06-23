@@ -73,12 +73,3 @@ function prevSlide() {
     slideNow--;
   }
 }
-
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "navbar_style") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar_style";
-  }
-}

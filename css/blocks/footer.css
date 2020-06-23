@@ -58,3 +58,10 @@ footer {
             font-size: 7px;
         }
     }
+
+ @media (max-width:550px) {
+     .footer_nav ul{
+         flex-direction: column;
+     }
+ }
+    
