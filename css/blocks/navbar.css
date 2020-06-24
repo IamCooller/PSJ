@@ -54,10 +54,12 @@ option:checked {
 option {
     color: black;
 }
+
 .city {
     text-align: center;
     margin-top: 22px;
 }
+
 .city select {
     border-radius: 0;
     background: transparent;
@@ -115,18 +117,22 @@ option {
     .navbar_style ul {
         display: none;
         flex-direction: column;
+        text-align: center;
+        position: relative;
+        top: -61px;
     }
 
- 
+
     .menu__btn {
-       display: flex;
-       align-items: center;
-       position: relative;
-       left: 95%;
-       width: 26px;
-       height: 26px;
-       cursor: pointer;
-       z-index: 1;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 95%;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        top: -40px;
+        z-index: 1;
     }
 
     .menu__btn>span,
@@ -185,9 +191,8 @@ option {
 
 }
 
-@media(max-width:520px){
+@media(max-width:520px) {
     .menu__btn {
         top: 26%;
     }
 }
-

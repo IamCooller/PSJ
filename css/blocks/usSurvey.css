@@ -113,17 +113,15 @@ input[type="search"]::placeholder {
         margin-left: 0;
     }
 
+    .usSurvey_leftBlock h2,
+    .usSurvey_leftBlock p,
     .usSurvey_leftBlock h5 {
         margin: 0 auto;
         display: flex;
         justify-content: center;
+        width: 100%;
     }
 
-    .usSurvey_rightBlock {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-    }
 
     .search_calct .form select {
         margin-bottom: 20px;

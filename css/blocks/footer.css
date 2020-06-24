@@ -87,3 +87,21 @@ footer {
         padding-left: 0px !important;
     }
 }
+
+@media (max-width:1200px) {
+    .footer_nav li a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1150px) {
+    .footer_nav li a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:990px) {
+    .footer_nav li a {
+        font-size: 10px;
+    }
+}

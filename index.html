@@ -52,10 +52,10 @@
             </select>
           </div>
           <nav class="navbar_style col-md-10 col-sm-12" id="myTopnav">
-           <input id="menu__toggle" type="checkbox" />
-           <label class="menu__btn" for="menu__toggle">
-             <span></span>
-           </label>
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
             <ul>
               <li><a href="#">Главная</a></li>
               <li><a href="#">Мой дом</a></li>
@@ -65,20 +65,19 @@
               <li><a href="#">Обратная связь</a></li>
               <li><a href="#">О нас</a></li>
             </ul>
-            
-          
-            </nav>
-            <script>
-            function navbar_f() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "navbar_style") {
-                  x.className += " responsive";
-                } else {
-                  x.className = "navbar_style";
-                }
-              }
 
-            </script>
+
+          </nav>
+          <script>
+            function navbar_f() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "navbar_style") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar_style";
+              }
+            }
+          </script>
         </div>
       </div>
     </section>
@@ -199,7 +198,7 @@
         <div class="row option_last">
           <div class="left_blockLast col-md-8 col-sm-12">
             <h1>Последнее обсуждаемое</h1>
-            <div class="blocks_news" style="margin-bottom: 20px;">
+            <div class="blocks_news">
               <div class="block_news">
                 <p class="data">18.02.2020</p>
                 <div class="next_news_block">
