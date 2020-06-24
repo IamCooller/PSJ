@@ -1,5 +1,6 @@
 .usSurvey {
-    background: url(../../src/assets/city.png);
+    background: url(../../src/assets/city.png) no-repeat;
+    background-size: cover;
     justify-content: center;
 }
 
