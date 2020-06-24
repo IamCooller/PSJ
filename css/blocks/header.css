@@ -10,6 +10,8 @@ header {
 .personal_block {
     display: flex;
     margin-top: 10px;
+    position: relative;
+
 }
 
 .PersonalArea {
@@ -28,6 +30,7 @@ header {
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 16px;
     margin-right: 27px;
+    white-space: nowrap;
 }
 
 
@@ -39,32 +42,32 @@ header {
     padding: 12px 30px;
 }
 
-@media(max-width:700px) {
+@media(max-width:800px) {
 
+    /* 
     .PersonalArea a,
     .reg a {
         font-size: 12px;
-    }
-    .img_logo img{
-        max-width: 100px;
+    } */
+    .img_logo img {
+        max-width: 130px;
     }
 
 }
 
-@media(max-width:444px) {
-    .PersonalArea a,
+@media(max-width:520px) {
+    /* .PersonalArea a,
     .reg a {
         font-size: 10px;
-    }
+    } */
 
-    .img_logo img {
-        max-width: 80px;
-    }
+ 
 
-    .personal_block{
+    .personal_block {
         flex-direction: column;
     }
-    .PersonalArea{
+
+    .PersonalArea {
         padding-bottom: 10px;
     }
 

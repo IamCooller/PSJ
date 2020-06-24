@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: column;
     color: #ffffff;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .usSurvey_leftBlock h2 {
@@ -36,13 +38,13 @@
 }
 
 .search_calct .input {
-    margin-left: 20px;
     width: 100%;
     margin-bottom: 20px;
     border: 1px solid #bbbbbb;
-    border-radius: 3px;
-    height: 50px;
+
+    height: 57px;
     padding-left: 30px;
+
 }
 
 input[type="search"]::placeholder {
@@ -52,21 +54,21 @@ input[type="search"]::placeholder {
 }
 
 .search_calct .form select {
-    margin-left: 20px;
     width: 100%;
-    margin-bottom: 20px;
+
     border: 1px solid #bbbbbb;
-    height: 50px;
+    height: 57px;
     padding-left: 20px;
+
 }
 
 .search_calct .btnS {
-    margin-left: 20px;
+
     width: 100%;
-    margin-bottom: 20px;
+
     text-align: center;
-    padding-top: 10px;
-    height: 50px;
+    padding-top: 15px;
+    height: 57px;
 
     background-color: #4BD395;
 }
@@ -83,8 +85,9 @@ input[type="search"]::placeholder {
     font-size: 16px;
 }
 
+
 @media(max-width:770px) {
-    .usSurvey_leftBlock h2 {
+    /* .usSurvey_leftBlock h2 {
         font-size: 40px;
     }
 
@@ -98,23 +101,41 @@ input[type="search"]::placeholder {
 
     .search_calct .btnS a {
         font-size: 10px;
+    } */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
-     .form {
-         display: flex;
-         flex-direction: column;
-         text-align: center;
-     }
 
-     .colum_two {
-         margin-left: 0;
-     }
+    .colum_two {
+        margin-left: 0;
+    }
 
-     .usSurvey_leftBlock h5 {
-         margin: 0 auto;
-     }
+    .usSurvey_leftBlock h5 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
 
-     .usSurvey_leftBlock {
-         text-align: center;
-     }
+    .usSurvey_rightBlock {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .search_calct .form select {
+        margin-bottom: 20px;
+    }
 }
 
+@media(max-width:550px) {
+    .usSurvey_rightBlock {
+        margin-left: 30px;
+    }
+
+    .usSurvey_leftBlock {
+        text-align: center;
+    }
+}
